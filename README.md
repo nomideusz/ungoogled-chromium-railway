@@ -1,6 +1,6 @@
 # Deploy and Host Ungoogled Chromium (Cloud Browser) on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/ungoogled-chromium?utm_medium=integration&utm_source=button&utm_campaign=ungoogled-chromium)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/ungoogled-chromium?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=ungoogled-chromium)
 
 This template runs a full desktop [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) browser in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-ungoogled-chromium/) Selkies web interface. Open your Railway domain, log in, and you're inside a real browser running on the server — bookmarks, extensions, downloads, and sessions persist between visits.
 
@@ -35,7 +35,7 @@ Notes and limits:
 - Rendering is CPU-based (no GPU on Railway). Fine for browsing and light video; not for WebGL-heavy work.
 - Ungoogled Chromium is memory-hungry: give the service 1–2 GB. Heavy tab hoarding needs more.
 - Ungoogled Chromium is Chromium with every Google web-service dependency stripped out.
-- Want a mainstream engine? The same author publishes [Chromium](https://railway.com/deploy/chromium), [Google Chrome](https://railway.com/deploy/google-chrome), [Firefox](https://railway.com/deploy/firefox-browser), [Brave](https://railway.com/deploy/brave-browser) and [Microsoft Edge](https://railway.com/deploy/microsoft-edge) templates too.
+- Want a mainstream engine? The same author publishes [Chromium](https://railway.com/deploy/chromium?referralCode=sLjDXb), [Google Chrome](https://railway.com/deploy/google-chrome?referralCode=sLjDXb), [Firefox](https://railway.com/deploy/firefox-browser?referralCode=sLjDXb), [Brave](https://railway.com/deploy/brave-browser?referralCode=sLjDXb) and [Microsoft Edge](https://railway.com/deploy/microsoft-edge?referralCode=sLjDXb) templates too.
 - Traffic egresses from Railway's IP range — sites that block datacenter IPs (some streaming services) may object.
 - Abuse note: this is a browser, not an anonymizer. Use it within Railway's terms of service and the laws that apply to you.
 
